@@ -41,6 +41,14 @@ refresh_interval_sec = st.sidebar.slider("Refresh Interval (seconds)", min_value
 if auto_refresh:
     st_autorefresh(interval=refresh_interval_sec * 1000, key="live_ticker_refresh")
 
+# Add this inside your sidebar code in app.py
+with st.sidebar:
+    st.markdown("---")
+    with st.expander("👤 About the Creator"):
+        st.write("**Guna Sekhar Avula Dindima**")
+        st.write("Engineering Student & Developer building institutional-grade AI tools.")
+        st.markdown("[GitHub Profile](https://github.com/InfiniteLoopX-299792458)")
+
 run_btn = st.sidebar.button("Run Prediction Engine")
 
 if run_btn or auto_refresh:
