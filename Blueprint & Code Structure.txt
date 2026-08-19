@@ -1,0 +1,9 @@
+crypto_quant_dashboard/
+│
+├── app.py                 # The Streamlit Frontend & Dashboard UI
+├── model.py               # ML Pipeline (Data fetching, feature engineering, XGBoost)
+├── sentiment.py           # News API & Sentiment Analysis module
+├── explain.py             # SHAP values generator for Explainable AI
+├── database.py            # SQLite tracker for the Accountability Ledger
+├── requirements.txt       # All your pip install packages
+└── README.md              # The killer documentation for LinkedIn/GitHub
