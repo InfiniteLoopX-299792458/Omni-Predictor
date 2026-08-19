@@ -47,6 +47,8 @@ with st.sidebar:
     with st.expander("👤 About the Creator"):
         st.write("**Guna Sekhar Avula Dindima**")
         st.write("Engineering Student & Developer building institutional-grade AI tools.")
+        st.write("Phone num : 9000328669")
+        st.write("Gmail : gunaavula8@gmail.com")
         st.markdown("[GitHub Profile](https://github.com/InfiniteLoopX-299792458)")
 
 run_btn = st.sidebar.button("Run Prediction Engine")
