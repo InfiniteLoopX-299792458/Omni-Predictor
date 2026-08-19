@@ -9,3 +9,4 @@ scikit-learn
 shap
 requests
 plotly
+matplotlib
